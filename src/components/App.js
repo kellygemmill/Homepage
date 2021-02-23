@@ -1,17 +1,22 @@
 import React from 'react'
 import { LanguageProvider, Text } from 'containers/Language';
-import SearchArea from 'components/search/SearchArea'
-import Footer from 'components/Footer'
 import NavigationBar from 'components/NavigationBar'
+import Introduction from 'components/Introduction'
+import Projects from 'components/Projects'
+import Contact from 'components/Contact'
+import Footer from 'components/Footer'
 
 const App = () => {
   
     return (
         <LanguageProvider>
-            <NavigationBar className='navigation-bar' />
-            <h1>Kelly Gemmill</h1>
-            
-            <Footer />
+            <div className="content">
+                <NavigationBar className='navigation-bar' />
+                <Introduction />
+                <Projects />
+                <Contact />
+                <Footer />
+            </div>
         </LanguageProvider>
     );
 }
