@@ -4,12 +4,12 @@ import { Button, Card, Form } from 'react-bootstrap'
 const Contact = () => {
 
     return(
-        <div className='description'>
+        <div className='description' id='contact-me'>
             <div className='contact-header'>
             <h1>Contact Me</h1>
-            <h5>Please email me at <a href="mailto:kelly@kellygemmill.com">kelly@kellygemmill.com</a> or fill out the form below:</h5>
+            <h5>To get in touch, please email me at <a href="mailto:kelly@kellygemmill.com">kelly@kellygemmill.com</a>.</h5>
             </div>
-            <Card className="contact-form">    
+            {/* <Card className="contact-form">    
                 <Form className="contact-form">
                     <Form.Group controlId="Name">
                         <Form.Label>Name</Form.Label>
@@ -28,7 +28,7 @@ const Contact = () => {
 
                     <Form.Group controlId="Message">
                         <Form.Label>Message</Form.Label>
-                        <Form.Control as="textarea" rows={5} />
+                        <Form.Control as="textarea" rows={4} />
                     </Form.Group>            
                     
 
@@ -36,7 +36,7 @@ const Contact = () => {
                         Send
                     </Button>
                 </Form>
-            </Card>
+            </Card> */}
 
         </div>
     )

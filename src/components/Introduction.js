@@ -6,9 +6,9 @@ const Introduction = () => {
     return (
         <div>
             <h1>Kelly Gemmill</h1>
-            <div className='profile-pic-div'><Image className='profile-pic' src="profile.jpg" roundedCircle /></div>
-            <h5 className="description">As an aerospace engineer, I create engineering applications to 
-            predict aircraft performance and analyze data. Outside of work, I have been creating 
+            <div className='profile-pic-div'><Image className='picture' src="profile.jpg" roundedCircle /></div>
+            <h5 className="description">Welcome! As an aerospace engineer, I develop engineering applications for  
+            aircraft performance prediction and data analysis. Outside of work, I have been creating 
             applications using Java and React.</h5>
         </div>
 

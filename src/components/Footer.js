@@ -5,7 +5,7 @@ import { Text } from 'containers/Language'
 const Footer = () => {
     return (
         <div className='footer'>
-            <Button className='gh-button' variant="outline-light" href="https://github.com/kellygemmill"
+            <Button className='gh-button' variant="outline-light" href="https://github.com/kellygemmill/Homepage"
                 target="_blank" rel="noopener noreferrer"><Text textId="viewOnGitHub" /></Button>
             <p className="copyright">&copy; {new Date().getFullYear()} {' '}
                 Kelly Gemmill</p>

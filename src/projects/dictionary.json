@@ -1,0 +1,13 @@
+{
+    "title": "Dictionary Application",
+    "image": "dictionary-lookup-sample.png",
+    "address": "https://dictionary.kellygemmill.com",
+    "github": "https://github.com/kellygemmill/Dictionary",
+    "summary": "This is a bilingual dictionary application. A demo mode is available which populates the search field with a random word to look up.",
+    "description": [
+        "The backend of this application is written in Java using Spring Boot",
+        "Dictionaries are stored in a PostgreSQL database and accessed using JPA and Hibernate",
+        "The frontend of this application is written in React",
+        "Interface is available in both English and Japanese through React useContext hook"
+    ]
+}

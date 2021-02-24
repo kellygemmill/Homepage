@@ -1,0 +1,13 @@
+{
+    "title": "Sudoku Solver",
+    "image": "sudoku-solved-sample.png",
+    "address": "https://sudokusolver.kellygemmill.com",
+    "github": "https://github.com/kellygemmill/SudokuSolver",
+    "summary": "This is an application that solves a sudoku puzzle of arbitrary size.",
+    "description": [
+        "The backend of this application is written in Java using Spring Boot",
+        "A backtracking algorithm was implemented to solve the puzzle",
+        "The frontend of this application is written in React",
+        "The backend and frontend both support arbitrary puzzle size, but the web interface is limited to 16x16 for practicality"
+    ]
+}

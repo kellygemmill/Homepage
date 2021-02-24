@@ -38,9 +38,9 @@ code {
   width: 150px;
 }
 
-.profile-pic {
-  width:175px;
-  height:175px;
+.picture {
+  width:100%;
+  height:auto;
 }
 
 .profile-pic-div {
@@ -57,6 +57,7 @@ code {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .projects {
@@ -67,6 +68,52 @@ code {
   background-color: #204051;
   margin-top: 20px;
   margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.project-group {
+  margin: 0px;
+}
+
+.single-project {
+  color: black;
+  width: 60%;
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sample-image {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: solid;
+  border-width: 2px;
+  border-color: #204051;
+  border-radius: .25rem;
+}
+
+.project-description {
+  color: black;
+  width: 95%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding: 10px;
+  
+}
+
+
+.jumbotron {
+  padding-left: 10px;
+  padding-right: 10px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -103,3 +150,27 @@ code {
   position: relative;
   padding-bottom: 150px; 
  }
+
+ .bullet-item {
+   margin-bottom: 15px;
+ }
+
+ .site-link {
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-right: 15px;
+   margin-left: 15px;
+   width: 140px;
+ }
+
+ .site-link-div {
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ hr {
+   height: 5px;
+   border-width: 2px;
+   border-color: #ccc;
+ }
+ 
