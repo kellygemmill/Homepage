@@ -18,7 +18,7 @@ const NavigationBar = () => {
                         <NavDropdown.Item href='https://dictionary.kellygemmill.com'><Text textId='dictionary' /></NavDropdown.Item>
                         <NavDropdown.Item href='https://sudokusolver.kellygemmill.com'><Text textId='sudoku' /></NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link href='http://localhost:3000/#contact-me'><Text textId='contact' /></Nav.Link>
+                    <Nav.Link href='https://kellygemmill.com/#contact-me'><Text textId='contact' /></Nav.Link>
                     <Nav.Link href='https://github.com/kellygemmill' target="_blank" rel="noopener noreferrer"><Text textId='github' /></Nav.Link>
                 </Nav>
             </Navbar.Collapse>

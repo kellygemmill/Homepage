@@ -11,7 +11,7 @@ const SingleProject = ({ project }) => {
     return(
         <div className="single-project">
             <Jumbotron>
-                <h2>{project.title}</h2>
+                {/* <h2>{project.title}</h2> */}
                 <CardGroup >
                     <Card bg='dark'>
                         <a href={project.address} className="sample-image">
