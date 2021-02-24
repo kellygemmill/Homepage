@@ -1,0 +1,8 @@
+version: '3'
+services:
+
+  homepage-frontend:
+    build: .
+    container_name: homepage-frontend
+    ports:
+      - 79:80
