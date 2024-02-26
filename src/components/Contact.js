@@ -7,7 +7,7 @@ const Contact = () => {
         <div className='description' id='contact-me'>
             <div className='contact-header'>
             <h1>Contact Me</h1>
-            <h5>To get in touch, please email me at <a href="mailto:kelly@kellygemmill.com">kelly@kellygemmill.com</a>.</h5>
+            <h5>To get in touch, please email me at <a href="mailto:kelly@kellygemmill.com">kelly@kellygemmill.com</a> or add me on <a href="https://www.linkedin.com/in/kelly-gemmill/">LinkedIn</a>.</h5>
             </div>
             {/* <Card className="contact-form">    
                 <Form className="contact-form">
